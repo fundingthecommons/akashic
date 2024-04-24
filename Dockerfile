@@ -1,5 +1,5 @@
 FROM node:20-alpine AS base
-RUN apk add --no-cache bash
+RUN apk add --no-cache bash curl
 RUN npm add -g --no-fund pnpm
 RUN mkdir /app
 COPY package.json /app
