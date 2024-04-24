@@ -1,7 +1,5 @@
 {
-	"prettier.documentSelectors": [
-		"**/*.svelte"
-	],
+	"prettier.documentSelectors": ["**/*.svelte"],
 	"tailwindCSS.classAttributes": [
 		"class",
 		"accent",
@@ -116,5 +114,8 @@
 		"transition",
 		"width",
 		"zIndex"
-	]
+	],
+	"yaml.schemas": {
+		"https://json.schemastore.org/yamllint.json": "file:///Users/dukejones/work/ContractWork/Akashic/akashic/config/deploy.yml"
+	}
 }
